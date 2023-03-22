@@ -1,7 +1,6 @@
 name: Build and Deploy
 
-on:
-  workflow_dispatch: {}
+on:push
 
 env:
   BUCKET_NAME : "typescript-express-artifact-1"
